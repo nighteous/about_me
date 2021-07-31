@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">About Me</string>
+    <string name="name">idk you tell me</string>
+    <string name="scroll_text">
+    Jujutsu Kaisen[Jp. 1] is a Japanese manga series written and illustrated by Gege Akutami, serialized in Shueisha Weekly Shōnen Jump since March 2018. The Jujutsu Kaisen chapters are collected and published by Shueisha, with sixteen tankōbon volumes released as of June 2021. The story follows high school student Yuji Itadori as he joins a secret organization of Jujutsu Sorcerers in order to kill a powerful Curse named Ryomen Sukuna, of whom Yuji becomes the host. Jujutsu Kaisen is a sequel to Akutamis Tokyo Metropolitan Curse Technical School, serialized in Shueishas Jump GIGA from April to July 2017, later collected in a tankōbon volume, as Jujutsu Kaisen 0, in December 2018.
+
+    Jujutsu Kaisen is licensed for English-language release in North America by Viz Media, who has been publishing the manga in print since December 2019. Shueisha publishes the series in English on the Manga Plus online platform. Two novels, written by Ballad Kitaguni, were published in May 2019 and January 2020, respectively. A 24-episode anime television series adaptation by MAPPA aired on MBS from October 2020 to March 2021. The anime is licensed by Crunchyroll for streaming outside of Asia, who premiered an English dub in November 2020. The original soundtrack of the anime was released in April 2021.
+
+    As of May 2021, the Jujutsu Kaisen manga had over 50 million copies in circulation, including digital versions, making it one of the best-selling manga series of all time.
+    </string>
+    <string name="zhongli">zhongli</string>
+    <string name="what_name">What is your Name?</string>
+    <string name="done">Done</string>
+</resources>

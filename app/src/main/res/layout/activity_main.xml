@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+        <variable
+            name="IdkYouTellMe"
+            type="com.airpods69.aboutme.Idk" />
+    </data>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/layout_margin"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/small_padding">
+
+        <TextView
+                android:id="@+id/name_text"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={IdkYouTellMe.name}"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editable_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/what_name"
+            android:inputType="textPersonName"
+            android:textAlignment="center"
+            tools:ignore="Autofill" />
+
+
+        <TextView
+            android:id="@+id/effect"
+            style="@style/NameStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@={IdkYouTellMe.nickname}"
+            android:textAlignment="center"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            style="@style/Widget.AppCompat.Button.Colored"
+            android:text="@string/done" />
+
+        <ScrollView
+            android:id="@+id/bio_scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/zhongli_pic"
+                    android:layout_width="match_parent"
+                    android:layout_height="238dp"
+                    android:contentDescription="@string/zhongli"
+                    app:srcCompat="@drawable/zhongli" />
+
+                <TextView
+                    android:id="@+id/scroll_text"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:fontFamily="@font/roboto"
+                    android:lineSpacingMultiplier="1.2"
+                    android:paddingStart="@dimen/padding"
+                    android:paddingEnd="@dimen/padding"
+                    android:text="@string/scroll_text"
+                    android:textSize="20sp" />
+            </LinearLayout>
+        </ScrollView>
+
+    </LinearLayout>
+</layout>
